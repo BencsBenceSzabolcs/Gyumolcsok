@@ -12,10 +12,10 @@ namespace Gyumolcs
         {
             Gyumolcs g = new Gyumolcs("Alma", "Piros", 150);
             Console.WriteLine(g.Leiras());
-
+            Console.WriteLine("------------------------------------");
             Alma a = new Alma("Alma", "Zöld", 160, "Granny Smith");
             Console.WriteLine(a.Leiras());
-
+            Console.WriteLine("------------------------------------");
             List<Gyumolcs> gyumolcsok = new List<Gyumolcs>();
             gyumolcsok.Add(new Alma("Alma", "Piros", 150, "Red Delicious"));
             gyumolcsok.Add(new Gyumolcs("Banán", "Sárga", 120));
@@ -36,6 +36,7 @@ namespace Gyumolcs
                 }
             }
             Console.WriteLine($"Almák száma: {almaSzam}, Nem almák száma: {nemAlmaSzam}");
+            Console.WriteLine("------------------------------------");
         }
     }
 }
